@@ -155,5 +155,17 @@ footer >a{
 	color: #E5C185;
 }
 /* MEDIA QUERY MEDIUM */
+
+@media screen and (min-width:600px) {
+
+}
 /* MEDIA QUERY LARGE */
+
+@media screen and (min-width:900px) {
+
+}
 /* MEDIA QUERY X-LARGE */
+
+@media screen and (min-width:1200px) {
+	
+}
