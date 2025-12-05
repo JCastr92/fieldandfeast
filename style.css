@@ -104,8 +104,9 @@ main {
 }
 
 hr {
-	color: #E5C185;
-	background-color: #FAF9F6;
+	background-color: #E5C185;
+	border: none;
+	height: 2px;
 }
 
 .offerings > p{
