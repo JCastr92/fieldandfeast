@@ -81,7 +81,8 @@ h1{
 
 h2{
 	font-size: 1.5em;
-	padding: 10px; 
+	padding-top: 10px; 
+	padding-bottom: 10px;
 }
 
 header > p{
@@ -133,6 +134,7 @@ hr {
 	color: #FAF9F6;
 	border-radius: 8px;
 	padding: 10px;
+	margin: 10px;
 	box-shadow: 5px #2B2B2B;
 }
 
@@ -141,6 +143,7 @@ hr {
 	color: #FAF9F6;
 	border-radius: 8px;
 	padding: 10px;
+	margin: 10px;
 	box-shadow: 5px #2B2B2B;
 }
 
@@ -149,6 +152,7 @@ hr {
 	color: #FAF9F6;
 	border-radius: 8px;
 	padding: 10px;
+	margin: 10px;
 	box-shadow: 5px #2B2B2B;
 }
 .welcome{
