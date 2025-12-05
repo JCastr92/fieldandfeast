@@ -81,6 +81,7 @@ h1{
 
 h2{
 	font-size: 1.5em;
+	padding: 10px; 
 }
 
 header > p{
@@ -132,8 +133,24 @@ hr {
 	color: #FAF9F6;
 	border-radius: 8px;
 	padding: 10px;
+	box-shadow: 5px #2B2B2B;
 }
 
+#box2{
+	background-color: #76885B;
+	color: #FAF9F6;
+	border-radius: 8px;
+	padding: 10px;
+	box-shadow: 5px #2B2B2B;
+}
+
+#box3{
+	background-color: #76885B;
+	color: #FAF9F6;
+	border-radius: 8px;
+	padding: 10px;
+	box-shadow: 5px #2B2B2B;
+}
 .welcome{
 	padding-top: 20px;
 }
@@ -162,6 +179,8 @@ footer {
 	color: #FAF9F6;
 	background-color:#1F2A44;
 	text-align: center;
+	padding: 20px;
+	padding-top: 40px;
 }
 
 footer a{
