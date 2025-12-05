@@ -79,6 +79,10 @@ h1{
 	font-weight: bold;
 }
 
+h2{
+	font-size: 1.5em;
+}
+
 header > p{
 	font-style: italic;
 	font-size: 1.2em;
@@ -96,6 +100,7 @@ a{
 }
 main {
 	background-color: #FAF9F6;
+	padding: 20px;
 }
 
 hr {
@@ -107,7 +112,7 @@ hr {
 	color:#FAF9F6;
 }
 
-.offerings > .welcome{
+.offerings > .welcome {
 	color: #1F2A44;
 	background-color: #FAF9F6;
 }
@@ -116,6 +121,16 @@ hr {
 	background-color: #76885B;
 	display: grid;
 	border-radius: 20px;
+}
+
+.welcome{
+	padding-top: 20px;
+}
+
+.welcome > p{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	letter-spacing: 2px;
 }
 .gallery {
 	display: grid;
