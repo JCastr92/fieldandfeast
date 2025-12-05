@@ -53,6 +53,74 @@ table {
 /* ROOT VARIABLES */
 
 /* GLOBAL STYLES (mobile first/small) */
+
+html {
+	font-family: 'Playfair Display', sans-serif;
+}
+
+body {
+	max-width: 450px;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+	background-color: #1F2A44;
+	color: #FAF9F6;
+	align-content: center;
+	text-align: center;
+}
+
+nav{
+	background-color: #E5C185;
+	color: #1F2A44;
+	gap: 10px;
+	text-align: center;
+}
+
+main {
+	background-color: #FAF9F6;
+}
+
+hr {
+	color: #E5C185;
+}
+
+.offerings > p{
+	color:#FAF9F6;
+}
+
+.offerings > .welcome{
+	color: #1F2A44;
+	background-color: #FAF9F6;
+}
+
+.offerings > section{
+	background-color: #76885B;
+	display: grid;
+	border-radius: 20px;
+}
+
+.gallery > p{
+	color: #1F2A44;
+}
+
+.gallery > a{
+	background-color: #76885B;
+}
+
+footer {
+	color: #FAF9F6;
+	background-color:#1F2A44;
+	text-align: center;
+}
+
+footer >a{
+	color: #E5C185;
+}
 /* MEDIA QUERY MEDIUM */
 /* MEDIA QUERY LARGE */
 /* MEDIA QUERY X-LARGE */
