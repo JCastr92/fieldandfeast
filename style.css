@@ -133,6 +133,11 @@ hr {
 	background-color: #FAF9F6;
 }
 
+#offerings > .grid {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
 
 #box1{
 	background-color: #76885B;
