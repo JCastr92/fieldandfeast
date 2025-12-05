@@ -93,6 +93,14 @@ nav{
 	color: #1F2A44;
 	text-decoration: none;
 	padding: 20px;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+}
+
+nav a{
+	color: #1F2A44;
+	font-weight: bold;
 }
 
 a{
@@ -118,10 +126,12 @@ hr {
 	background-color: #FAF9F6;
 }
 
-.offerings > section{
+
+#box1{
 	background-color: #76885B;
-	display: grid;
-	border-radius: 20px;
+	color: #FAF9F6;
+	border-radius: 8px;
+	padding: 10px;
 }
 
 .welcome{
@@ -151,7 +161,7 @@ footer {
 	text-align: center;
 }
 
-footer >a{
+footer a{
 	color: #E5C185;
 }
 /* MEDIA QUERY MEDIUM */
@@ -167,5 +177,5 @@ footer >a{
 /* MEDIA QUERY X-LARGE */
 
 @media screen and (min-width:1200px) {
-	
+
 }
