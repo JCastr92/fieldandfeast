@@ -206,10 +206,33 @@ footer a{
 	#offerings .grid #box3{
 		grid-column: 1/3;
 	}
+
+	#gallery > .grid2 {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto;
+		gap: 10px;
+	}
 }
 /* MEDIA QUERY LARGE */
 
 @media screen and (min-width:900px) {
+	#offerings > .grid{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: auto auto;
+	}
+
+	#offerings .grid #box3{
+		grid-column: 1/3;
+	}
+
+	#gallery > .grid2 {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: auto auto;
+		gap: 10px;
+	}
 
 }
 /* MEDIA QUERY X-LARGE */
