@@ -74,15 +74,25 @@ header{
 	text-align: center;
 }
 
+h1{
+	font-size: 4em;
+	font-weight: bold;
+}
+
+header > p{
+	font-style: italic;
+	font-size: 1.2em;
+	padding: 30px;
+}
 nav{
 	background-color: #E5C185;
 	color: #1F2A44;
-	gap: 10px;
-	text-align: center;
+	text-decoration: none;
+	padding: 20px;
 }
 
-ul{
-	list-style-type: none;
+a{
+	text-decoration: none;
 }
 main {
 	background-color: #FAF9F6;
@@ -90,6 +100,7 @@ main {
 
 hr {
 	color: #E5C185;
+	background-color: #FAF9F6;
 }
 
 .offerings > p{
@@ -106,7 +117,10 @@ hr {
 	display: grid;
 	border-radius: 20px;
 }
-
+.gallery {
+	display: grid;
+	justify-content:center;
+}
 .gallery > p{
 	color: #1F2A44;
 }
